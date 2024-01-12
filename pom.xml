@@ -27,17 +27,6 @@
 					<target>1.21</target>
 				</configuration>
 			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-surefire-plugin</artifactId>
-				<version>2.8.1</version>
-				<configuration>
-					<systemPropertyVariables>
-						<jcstress.strideCount>5</jcstress.strideCount> <!-- TODO
-						DEBUG -->
-					</systemPropertyVariables>
-				</configuration>
-			</plugin>
 		</plugins>
 	</build>
 
